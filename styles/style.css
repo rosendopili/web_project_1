@@ -1,3 +1,10 @@
+:root {
+  --black: #000000;
+  --dark-gray: #1F1F1F;
+  --light-gray: #F2F2F2;
+  --blue: #2F80ED;
+}
+
 .page {
     min-width: 1100px;
     /* we don't know how to make mobile versions of websites yet, */
@@ -14,12 +21,81 @@
     min-height: 600px;
     max-height: 756px;
     /* parameters for the header section */
+    display: flex;
+    background-color: var(--light-gray); 
+}
+
+.header__logo {
+  width: 154px;
+  height: 31px;
+}
+
+.header__logo_position_absolute {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  align-self: center;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__subtitle_position_absolute {
+  position: absolute;
+  left: 64px;
+  bottom: 35px;
+}
+
+.header__link {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+
+}
+
+.header__link_position_absolute{
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+}
+
+.header__main-illustration_position_absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
     height: 568px;
     width: 568px;
+    background-color: var(--blue);
+}
+
+.header__square-pic_position_absolute {
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
 /* including elements with key-value modifiers */
