@@ -4,10 +4,7 @@
   --light-gray: #F2F2F2;
   --blue: #2F80ED;
 }
-/* 
-* {
-  border: 1px black solid;
-} */
+/* x */
 
 .page {
     min-width: 1100px;
@@ -29,12 +26,12 @@
     background-color: var(--light-gray);
 }
 
-.header__logo {
+.logo {
   width: 154px;
   height: 31px;
 }
 
-.header__logo_position_absolute {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -73,12 +70,6 @@
   font-weight: normal;
   z-index: 2;
   color: var(--blue);
-}
-
-.header__link_position_absolute{
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
 }
 
 .header__main-illustration {
@@ -174,6 +165,7 @@
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+  list-style: none; 
 }
 
 .table__cell {
