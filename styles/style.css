@@ -292,6 +292,7 @@
 .kaufman__triangle_position_absolute {
   position: absolute;
   right: -210px;
+  top: 0px;
   overflow: hidden;
   z-index: 0;
 }
@@ -327,21 +328,21 @@
 }
 
 .footer__columns_content_copyright {
-  width: 50%;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
   background-size: contain;
-  flex-basis: 711px;
   height: 35px;
   width: 183px;
 }
 
 .footer__author {
-  position: absolute;
   margin-top: 18px;
   bottom: 18px;
-  left: 0px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
