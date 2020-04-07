@@ -45,7 +45,6 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
-
 }
 
 .header__subtitle {
@@ -53,13 +52,10 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 2;
-}
-
-.header__subtitle_position_absolute {
   position: absolute;
   left: 64px;
   bottom: 35px;
+  z-index: 2;
 }
 
 .header__link {
@@ -68,36 +64,30 @@
   font-size: 18px;
   text-decoration: none;
   font-weight: normal;
-  z-index: 2;
   color: var(--blue);
 }
 
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  z-index: 1;
-}
-
-.header__main-illustration_position_absolute {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
     height: 568px;
     width: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
     background-color: var(--blue);
 }
 
-.header__square-pic_position_absolute {
-  position: absolute;
-  top: 64px;
-  right: 0;
-}
-
-.description__two-columns {
+.two-columns {
   margin: 100px auto;
   width: 80%;
   display: flex;
@@ -181,6 +171,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
@@ -225,21 +216,15 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
-  color: var(--black);
-}
-
-.feynman__link_position_absolute {
   position: absolute;
   right: 48px;
   top: 50%;
+  color: var(--black);
 }
 
 .feynman__image {
   width: 867px;
   height: 637px;
-}
-
-.feynman__image_position_absolute {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -251,6 +236,8 @@
   display: flex;
   flex-direction: column;
   background-color: var(--dark-gray);
+  overflow: hidden;
+
 }
 
 .kaufman__title {
@@ -287,15 +274,13 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-}
-
-.kaufman__triangle_position_absolute {
+  background-image: url(/images/triangle.svg);
   position: absolute;
   right: -210px;
   top: 0px;
-  overflow: hidden;
   z-index: 0;
 }
+
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
@@ -364,12 +349,12 @@
 .footer__column-links {
   line-height: 30px;
   font-size: 18px;
-  text-decoration: none;
+  list-style-type: none;
   font-weight: normal;
   color: white;
 }
 
-.footer__column-links:nth-of-type(3){
+.footer__column-links:nth-last-of-type(1){
   margin-bottom: 16px;
 }
 
@@ -379,27 +364,12 @@
 }
 
 .footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+a {
+  color: white;
   text-decoration: none;
-}
-
-.footer__social-icon:nth-of-type(2){
-  margin-bottom: 16px;
-}
-
-.footer__social-icon:nth-of-type(1)::after {
-  content: "Facebook";
-  margin-left: 10px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-}
-
-.footer__social-icon:nth-of-type(2)::after {
-  content: "Instagram";
-  margin-left: 10px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
 }
