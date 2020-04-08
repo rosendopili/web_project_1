@@ -345,6 +345,7 @@
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
+  display: inline-block;
 }
 
 ul{
