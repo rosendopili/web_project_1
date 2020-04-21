@@ -1,0 +1,10 @@
+.kaufman__subtitle {
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  z-index: 1;
+}
