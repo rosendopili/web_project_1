@@ -11,4 +11,5 @@
     display: flex;
     background-color: var(--light-gray);
     position: relative;
+    overflow: hidden; 
 }
