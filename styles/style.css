@@ -13,6 +13,8 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/khan/khan.css);
+@import url(../blocks/resources/resources.css);
+
 
 :root {
   --black: #000000;
@@ -29,4 +31,10 @@ ul{
 a {
   color: white;
   text-decoration: none;
+  transition: opacity .5s ease-in-out;
+
+}
+
+a:hover {
+  opacity: .5
 }
