@@ -8,6 +8,9 @@
 @import url(../blocks/table/table.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+
 
 :root {
   --black: #000000;
