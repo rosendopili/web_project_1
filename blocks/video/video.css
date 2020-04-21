@@ -7,4 +7,6 @@
 .video {
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(white 550px, var(--light-gray) 10px);
+  margin-bottom: 0px;
 }
