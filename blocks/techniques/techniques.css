@@ -1,6 +1,3 @@
-@import url(__title/techniques__title.css);
-@import url(__subtitle/techniques__subtitle.css);
-
 .techniques {
   display: flex;
   flex-direction: column;

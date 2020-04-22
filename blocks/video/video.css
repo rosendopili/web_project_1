@@ -1,12 +1,11 @@
 @import url(__iframe/video__iframe.css);
 @import url(__iframes/video__iframes.css);
-@import url(__subtitle/video__subtitle.css);
-@import url(__title/video__title.css);
+
 
 
 .video {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(white 550px, var(--light-gray) 10px);
   margin-bottom: 0px;
+  position: relative;
 }

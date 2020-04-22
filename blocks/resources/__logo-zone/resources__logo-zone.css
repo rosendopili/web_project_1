@@ -3,4 +3,5 @@
   margin: 80px auto 217px auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
 }
