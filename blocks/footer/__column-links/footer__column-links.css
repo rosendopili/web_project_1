@@ -4,4 +4,13 @@
   list-style-type: none;
   font-weight: normal;
   color: white;
+  text-decoration: none;
+  transition: opacity .5s ease-in-out;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-links a:hover {
+  opacity: .5;
 }

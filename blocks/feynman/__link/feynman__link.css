@@ -7,4 +7,9 @@
   right: 48px;
   top: 50%;
   color: var(--black);
+  transition: opacity .5s ease-in-out;
+}
+
+.feynman__link:hover {
+  opacity: .5;
 }
