@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/footer/footer.css);
@@ -14,7 +15,6 @@
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/resources/resources.css);
-@import url(../vendor/normalize.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 

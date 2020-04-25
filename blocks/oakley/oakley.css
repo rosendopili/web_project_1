@@ -1,6 +1,6 @@
 .oakley {
   background-color: var(--light-gray);
   margin-top: 0;
-  padding-top: 160px;
-  z-index: -1; 
+  padding-top: 60px;
+  z-index: -1;
 }
